@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Assigment2WebApi.Data;
+using Assigment3WebApiDatabase.Data;
+using Assigment3WebApiDatabase.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace Assigment2WebApi
+namespace Assigment3WebApiDatabase
 {
     public class Startup
     {
@@ -28,12 +29,13 @@ namespace Assigment2WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IPersonsService, PersonsService>();
+            services.AddDbContext<PersonDBContext>();
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "Assigment2WebApi", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "Assigment3WebApiDatabase", Version = "v1"});
             });
         }
 
@@ -44,7 +46,7 @@ namespace Assigment2WebApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Assigment2WebApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Assigment3WebApiDatabase v1"));
             }
 
             app.UseHttpsRedirection();

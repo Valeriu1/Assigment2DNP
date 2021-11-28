@@ -2,11 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Assigment2WebApi.Data;
+using Assigment3WebApiDatabase.Data;
+using Assigment3WebApiDatabase.Models;
 using Microsoft.AspNetCore.Mvc;
-using Models;
 
-namespace Assigment2WebApi.Controllers
+namespace Assigment3WebApiDatabase.Controllers
 {
     [ApiController]
     [Route("[controller]")]

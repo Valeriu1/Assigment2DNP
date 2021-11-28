@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Assigment2WebApi
+namespace Assigment3WebApiDatabase
 {
     public class Program
     {

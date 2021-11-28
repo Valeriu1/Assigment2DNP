@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Assigment2WebApi.Data;
+using Assigment3WebApiDatabase.Data;
+using Assigment3WebApiDatabase.Models;
 
-namespace Assigment2WebApi.Controllers
+namespace Assigment3WebApiDatabase.Controllers
 {
     [ApiController]
     [Route("[controller]")]

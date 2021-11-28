@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarks\\RiderProjects\\Ass2\\Assigment2WebApi\\Assigment2WebApi.csproj": {}
+    "C:\\Users\\sarks\\RiderProjects\\Assigment3\\Assigment2WebApi\\Assigment2WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarks\\RiderProjects\\Ass2\\Assigment2WebApi\\Assigment2WebApi.csproj": {
+    "C:\\Users\\sarks\\RiderProjects\\Assigment3\\Assigment2WebApi\\Assigment2WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarks\\RiderProjects\\Ass2\\Assigment2WebApi\\Assigment2WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\sarks\\RiderProjects\\Assigment3\\Assigment2WebApi\\Assigment2WebApi.csproj",
         "projectName": "Assigment2WebApi",
-        "projectPath": "C:\\Users\\sarks\\RiderProjects\\Ass2\\Assigment2WebApi\\Assigment2WebApi.csproj",
+        "projectPath": "C:\\Users\\sarks\\RiderProjects\\Assigment3\\Assigment2WebApi\\Assigment2WebApi.csproj",
         "packagesPath": "C:\\Users\\sarks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarks\\RiderProjects\\Ass2\\Assigment2WebApi\\obj\\",
+        "outputPath": "C:\\Users\\sarks\\RiderProjects\\Assigment3\\Assigment2WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sarks\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Assigment2WebApi": {
+    "Assigment3WebApiDatabase": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
